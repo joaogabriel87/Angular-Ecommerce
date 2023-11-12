@@ -1,0 +1,81 @@
+.menu__container{
+    display:flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 999;
+    background-color: #ffffff;
+    width: 99%;
+    height: 90px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+   
+}
+
+.menu__img{
+    margin-left:80px;
+    display: flex;
+    align-items: center;
+}
+
+.menu_name{
+margin-left: 10px;
+display: flex;
+font-family: 'Lucida Sans';
+}
+.menu_centre{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu_search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search_term{
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+.search_term:focus {
+    color: black;
+  }
+
+.search_button{
+    width: 40px;
+    height: 45.5px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.menu_item {
+    position: fixed;
+    top: 40px; /* Ajuste conforme necessário para definir a distância do topo */
+    right: 80px; /* Ajuste conforme necessário para definir a distância da direita */
+  }
+  
+  .menu_item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu_item li {
+    display: inline-block;
+    margin-left: 150px; /* Adicione algum espaço entre os ícones se desejar */
+  }
+
