@@ -1,0 +1,29 @@
+.container_filtre {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 900;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 10px 10px;
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    padding: 10px; /* Adiciona espaço interno ao redor dos elementos */
+    width: 98%;
+}
+
+.container_ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: flex;
+}
+
+.container_ul > li {
+    display: inline-block;
+    margin: 0px 55px; /* Adiciona margem à esquerda e à direita de cada item */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container_ul > li > a{
+    text-decoration: none; /* Remove o sublinhado */
+  color: inherit; /* Usa a cor padrão do elemento pai (normalmente preto) */
+}
