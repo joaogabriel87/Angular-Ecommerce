@@ -7,3 +7,14 @@
     align-items: baseline;
     flex-wrap:wrap;
 }
+.mini_card_container{
+     
+    width:70%;
+    margin:auto;
+    padding-top:80px;
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap:wrap;
+    
+}

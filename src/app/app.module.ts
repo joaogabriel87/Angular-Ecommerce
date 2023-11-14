@@ -6,6 +6,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FiltreComponent } from './components/filtre/filtre.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CardComponent } from './components/card/card.component';
+import { MiniCardComponent } from './components/mini-card/mini-card.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { CardComponent } from './components/card/card.component';
     FiltreComponent,
     HomeComponent,
     CardComponent,
+    MiniCardComponent,
     
   ],
   imports: [
