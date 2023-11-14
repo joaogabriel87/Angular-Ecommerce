@@ -64,8 +64,8 @@ font-family: 'Lucida Sans';
 }
 
 .menu_item {
-    position: fixed;
-    top: 30px; /* Ajuste conforme necessário para definir a distância do topo */
+    position: absolute;
+    top: 20px; /* Ajuste conforme necessário para definir a distância do topo */
     right: 80px; /* Ajuste conforme necessário para definir a distância da direita */
     
   }
