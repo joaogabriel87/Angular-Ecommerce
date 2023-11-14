@@ -18,3 +18,23 @@
     flex-wrap:wrap;
     
 }
+.catalog > h3{
+    width:70%;
+    margin:auto;
+    padding-top:80px;
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap:wrap;
+    font-size: 50px;
+ 
+}
+.catalog_container{
+    width:70%;
+    margin:auto;
+    padding-top:80px;
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap:wrap;
+}

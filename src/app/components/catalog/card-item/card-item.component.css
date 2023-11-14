@@ -1,0 +1,84 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Product Card Styles */
+  .product {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    max-width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    position: relative; /* Added position relative for absolute positioning */
+  }
+  
+  .product figure {
+    margin: 0;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-description {
+    position: relative;
+    z-index: 15;
+    background: #fff;
+  }
+  
+  .info {
+    padding: 15px;
+      color: #aaa;
+      font-size: 0.85em;
+      width: 75%;
+      float: left;
+
+  }
+  
+  h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5;
+  }
+  
+  .price {
+    width: 25%;
+      float: left;
+      color: black;
+      font-size: 3.5em;
+      position: relative;
+      margin-top: 25px;
+  }
+  
+  .price::before {
+    content: '$';
+    position: absolute;
+    top: 0;
+    left: -10px;
+    font-size: 0.35em;
+    }
+  
+  /* Hover effect */
+  .product:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
