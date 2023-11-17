@@ -12,4 +12,6 @@ logotip:string=""
 logocar:string=""
 @Input()
 logoaccount:string=""
+@Input()
+logolike:string=""
 }
