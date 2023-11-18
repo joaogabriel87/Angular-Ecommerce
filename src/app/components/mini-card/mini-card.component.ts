@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-mini-card',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./mini-card.component.css']
 })
 export class MiniCardComponent {
-
+@Input()
+titleMineCard:string=""
 }
