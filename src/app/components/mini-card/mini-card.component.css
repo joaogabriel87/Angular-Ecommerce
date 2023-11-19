@@ -45,6 +45,8 @@
     color: #FFF;
     z-index: 2;
     position: relative;
+    display: flex;
+    align-items: center;
   }
   
   .ag-courses-item_bg {
@@ -62,7 +64,7 @@
   }
 
   a{
-    text-decoration: none; /* Remove o sublinhado */
+  text-decoration: none; /* Remove o sublinhado */
   color: inherit; /* Usa a cor padrão do elemento pai (normalmente preto) */
   }
  

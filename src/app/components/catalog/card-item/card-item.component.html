@@ -1,21 +1,7 @@
-<main role="main">
-    <div class="product">
-      <figure>
-        <img [src]="photoCardItem" alt="" class="">
-          </figure>
-  
-        <div class="product-description">
-  
-          <div class="info">
-            <h1>{{titleCardItem}}</h1>
-            <p>
-              {{descriptCardItem}}
-            </p>
-          </div>
-  
-          <div class="price">
-            {{priceCardItem}}
-          </div>
-        </div>
-        </div>
-        
+<div class="product-card">
+    <img [src]="photoCardItem" alt="Product Image">
+    <h3>Nome do Produto</h3>
+    <p>Descrição do produto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <span class="price">R$ 99,99</span>
+    <button>Add to Cart</button>
+</div>
