@@ -9,6 +9,8 @@ import { CardComponent } from './components/card/card.component';
 import { MiniCardComponent } from './components/mini-card/mini-card.component';
 import { CatalogComponent } from './components/catalog/catalog.component';
 import { CardItemComponent } from './components/catalog/card-item/card-item.component';
+import { CarrinhoComponent } from './pages/carrinho/carrinho.component';
+
 
 
 @NgModule({
@@ -21,6 +23,8 @@ import { CardItemComponent } from './components/catalog/card-item/card-item.comp
     MiniCardComponent,
     CatalogComponent,
     CardItemComponent,
+    CarrinhoComponent,
+    
     
   ],
   imports: [

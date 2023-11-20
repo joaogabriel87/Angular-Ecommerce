@@ -1,7 +1,7 @@
 <div class="product-card">
     <img [src]="photoCardItem" alt="Product Image">
-    <h3>Nome do Produto</h3>
-    <p>Descrição do produto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <span class="price">R$ 99,99</span>
-    <button>Add to Cart</button>
+    <h3>{{titleCardItem}}</h3>
+    <p>{{descriptCardItem}}</p>
+    <span class="price">{{priceCardItem}}</span>
+    <button routerLink="/carrinho">Adicionar ao carrinho</button>
 </div>
