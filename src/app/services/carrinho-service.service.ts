@@ -37,7 +37,13 @@ export class CarrinhoServiceService {
     return this.itens;
   }
 
-  calcularPrecoTotal() {
-    return this.itens.reduce((total, item) => total + item.price * item.quantity, 0);
+  calcularPrecoTotal(): number {
+    let totalPrice = 0;
+  
+    for (const item of this.itens) {
+      totalPrice += item.price * item.quantity;
+    }
+  
+    return totalPrice;
   }
 }
