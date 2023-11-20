@@ -1,1 +1,21 @@
-<p>carrinho works!</p>
+<div class="carrinho-container">
+    <h2>Itens no Carrinho</h2>
+  
+    <div *ngFor="let item of itensNoCarrinho" class="carrinho-item">
+      <img [src]="item.photo" alt="Product Image">
+      <div class="carrinho-item-details">
+        <h3>{{item.title}}</h3>
+        <p>{{item.description}}</p>
+        <span class="price">{{item.price}}</span>
+        <button (click)="removerDoCarrinho(item)">Remover do Carrinho</button>
+        <span class="quantity">Quantidade: {{item.quantity}}</span>
+      </div>
+    </div>
+  
+    <div class="total-container">
+      <span class="total-label">Total:</span>
+      <span class="total-price">{{calcularPrecoTotal() | currency:'BRL'}}</span>
+    </div>
+  
+    <button (click)="finalizarCompra()">Finalizar Compra</button>
+  </div>
