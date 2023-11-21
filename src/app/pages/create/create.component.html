@@ -1,0 +1,24 @@
+<div class="card">
+    <div class="card-body">
+      <h2>Criar conta</h2>
+      <form>
+        <div class="form-group">
+            <label for="username">Digite seu nome</label>
+            <input type="text" id="name" name="username" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="username">Insira sua data de nascimento</label>
+            <input type="date" id="date" name="username" class="form-control" required>
+          </div>
+        <div class="form-group">
+          <label for="username">Insira seu email</label>
+          <input type="email" id="email" name="username" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Insira sua senha</label>
+          <input type="password" id="password" name="password" class="form-control" required>
+        </div>
+        <button  type="button" class="btn btn-primary" (click)="login()">Criar</button>
+      </form>
+    </div>
+</div>

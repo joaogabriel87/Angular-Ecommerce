@@ -10,6 +10,8 @@ import { MiniCardComponent } from './components/mini-card/mini-card.component';
 import { CatalogComponent } from './components/catalog/catalog.component';
 import { CardItemComponent } from './components/catalog/card-item/card-item.component';
 import { CarrinhoComponent } from './pages/carrinho/carrinho.component';
+import { AccountComponent } from './pages/account/account.component';
+import { CreateComponent } from './pages/create/create.component';
 
 
 
@@ -24,6 +26,8 @@ import { CarrinhoComponent } from './pages/carrinho/carrinho.component';
     CatalogComponent,
     CardItemComponent,
     CarrinhoComponent,
+    AccountComponent,
+    CreateComponent,
     
     
   ],

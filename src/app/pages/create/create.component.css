@@ -1,0 +1,78 @@
+.card {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 13%;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .btn-primary {
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #a8a8a8;
+  }
+  
+  .options {
+    margin-top: 15px;
+  }
+  
+  .options a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #4e4e4e;
+  }
+  
+  .options span {
+    margin: 0 5px;
+    font-weight: bold;
+  }
+
+  #name {
+    border: 1px solid #000000; /* Cor e estilo da borda desejados */
+    border-radius: 5px; /* Borda arredondada, se desejar */
+  }
+  
+  /* Estilo para o campo de senha */
+  #password {
+    border: 1px solid #000000; /* Cor e estilo da borda desejados */
+    border-radius: 5px; /* Borda arredondada, se desejar */
+  }
+  #date{
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  #email{
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  
