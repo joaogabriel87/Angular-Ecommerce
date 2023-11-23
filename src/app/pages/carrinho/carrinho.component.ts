@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { CarrinhoServiceService } from 'src/app/services/carrinho-service.service';
+import {Router} from '@angular/router'
 
 @Component({
   selector: 'app-carrinho',
@@ -10,7 +11,7 @@ export class CarrinhoComponent  {
   
   itensNoCarrinho: any[];
 
-  constructor(private carrinhoService: CarrinhoServiceService) {
+  constructor(private carrinhoService: CarrinhoServiceService, private cdRef:ChangeDetectorRef, private router: Router) {
     this.itensNoCarrinho = this.carrinhoService.obterItensNoCarrinho();
   }
 
@@ -23,7 +24,6 @@ export class CarrinhoComponent  {
   }
 
   finalizarCompra() {
-    // Lógica para finalizar a compra
-    console.log('Compra finalizada!');
+  this.router.navigate(['/checkout']);
   }
 }

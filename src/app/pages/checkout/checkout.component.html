@@ -1,0 +1,44 @@
+<app-navbar 
+logotip="assets/book.png"
+logolike="assets/like.png"
+logocar="assets/car.png"
+logoaccount="assets/account.png">
+</app-navbar>
+
+
+<form [formGroup]="checkoutForm">
+    <!-- Seção de informações do cliente -->
+    <h2>Informações do Cliente</h2>
+    <div>
+      <label for="nomeCompleto">Nome Completo:</label>
+      <input type="text" id="nomeCompleto" formControlName="nomeCompleto" required>
+    </div>
+  
+    <div>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" formControlName="email" required>
+    </div>
+  
+    <div>
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" formControlName="telefone" required>
+    </div>
+  
+    <!-- Seção de detalhes de pagamento -->
+    <h2>Detalhes de Pagamento</h2>
+    <div>
+      <label for="formaPagamento">Forma de Pagamento:</label>
+      <select id="formaPagamento" required>
+        <option value="pix">PIX</option>
+        <option value="cartao">Cartão de Crédito/Débito</option>
+      </select>
+    </div>
+  
+  
+    <!-- Botão de envio -->
+    <button type="button" (click)="finalizarCompra()">Finalizar Compra</button>
+  </form>
+  
+  
+  
+  

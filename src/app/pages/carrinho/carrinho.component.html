@@ -20,9 +20,11 @@ logoaccount="assets/account.png">
     </div>
   
     <div class="total-container">
-      <span class="total-label">Total:</span>
-      <span class="total-price">{{calcularPrecoTotal() | currency:'BRL'}}</span>
+      <span class="total-label">Total: {{calcularPrecoTotal() | currency:'BRL'}}</span>
+     
     </div>
   
     <button (click)="finalizarCompra()">Finalizar Compra</button>
   </div>
+
+  

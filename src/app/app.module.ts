@@ -12,6 +12,9 @@ import { CardItemComponent } from './components/catalog/card-item/card-item.comp
 import { CarrinhoComponent } from './pages/carrinho/carrinho.component';
 import { AccountComponent } from './pages/account/account.component';
 import { CreateComponent } from './pages/create/create.component';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 
 
@@ -28,12 +31,15 @@ import { CreateComponent } from './pages/create/create.component';
     CarrinhoComponent,
     AccountComponent,
     CreateComponent,
+    CheckoutComponent,
     
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
