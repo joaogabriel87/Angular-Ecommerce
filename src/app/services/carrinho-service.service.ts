@@ -39,11 +39,16 @@ export class CarrinhoServiceService {
 
   calcularPrecoTotal(): number {
     let totalPrice = 0;
-  
-    for (const item of this.itens) {
-      totalPrice += item.price * item.quantity;
+
+  for (const item of this.itens) {
+    const itemPrice = parseFloat(item.price);
+    const itemQuantity = parseInt(item.quantity, 10);
+
+    if (!isNaN(itemPrice) && !isNaN(itemQuantity)) {
+      totalPrice += itemPrice * itemQuantity;
     }
-  
-    return totalPrice;
+  }
+
+  return totalPrice;
   }
 }

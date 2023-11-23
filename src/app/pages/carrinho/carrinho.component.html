@@ -1,10 +1,4 @@
-<app-navbar 
-logotip="assets/book.png"
-logolike="assets/like.png"
-logocar="assets/car.png"
-logoaccount="assets/account.png">
-</app-navbar>
-<hr>
+
 <div class="carrinho-container">
     <h2>Itens no Carrinho</h2>
   
@@ -21,10 +15,10 @@ logoaccount="assets/account.png">
   
     <div class="total-container">
       <span class="total-label">Total: {{calcularPrecoTotal() | currency:'BRL'}}</span>
-     
     </div>
-  
-    <button (click)="finalizarCompra()">Finalizar Compra</button>
+    <div class="container-button">
+    <button class="finalizar-button" (click)="finalizarCompra()">Finalizar Compra</button>
   </div>
+</div>
 
   

@@ -11,16 +11,21 @@ export class CarrinhoComponent  {
   
   itensNoCarrinho: any[];
 
-  constructor(private carrinhoService: CarrinhoServiceService, private cdRef:ChangeDetectorRef, private router: Router) {
+  constructor(private carrinhoService: CarrinhoServiceService, private router: Router) {
     this.itensNoCarrinho = this.carrinhoService.obterItensNoCarrinho();
+    console.log('Itens no Carrinho:', this.itensNoCarrinho);
   }
+  
+  
 
   removerDoCarrinho(item: any) {
+    console.log('Removendo do carrinho:', item);
     this.carrinhoService.removerDoCarrinho(item);
   }
+  
 
   calcularPrecoTotal() {
-    return this.carrinhoService.calcularPrecoTotal();
+   return this.carrinhoService.calcularPrecoTotal();
   }
 
   finalizarCompra() {
