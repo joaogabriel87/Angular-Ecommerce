@@ -1,27 +1,15 @@
-# ECommerce
+# Angular E-Commerce de E-books
+Bem-vindo ao nosso incrível E-Commerce de E-books desenvolvido exclusivamente em Angular! Este projeto proporciona uma experiência de compra de livros online de maneira fácil e intuitiva.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+## Funcionalidades Principais
+### Página Inicial
+Na página inicial, você encontrará uma seleção cuidadosamente escolhida dos melhores e-books disponíveis. Role para explorar os títulos e encontre algo que desperte seu interesse.
 
-## Development server
+### Adicionar ao Carrinho
+Ao encontrar um livro que você deseja comprar, clique no botão "Adicionar ao Carrinho". O livro será automaticamente adicionado ao seu carrinho de compras.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Carrinho de Compras
+No carrinho de compras, você poderá revisar os itens selecionados, ajustar as quantidades, ou remover qualquer livro que tenha mudado de ideia. Isso permite que você tenha controle total sobre sua compra antes de prosseguir para o checkout.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Checkout
+Ao clicar em "Checkout", você será guiado por um processo simples para concluir sua compra. Insira suas informações de pagamento para finalizar a transação.
